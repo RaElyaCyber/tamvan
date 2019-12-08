@@ -121,7 +121,8 @@ if [$nomor = 9] | [$nomor = 9]
 then
 clear
 echo " HACK-IG.." | lolcat
-pip2 install colorama requests mechanize
+pip2 install requests
+
 pkg install openssh -y
 git clone https://github.com/saydog/HEK-IG
 cd HEK-IG

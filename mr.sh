@@ -67,7 +67,7 @@ cd HxWhatsApp
 python2 HxWhatsApp.py
 fi
 
-if [$nomor = 5 ] || [ $nomor = 5 ]
+if [ $nomor = 5 ] || [ $nomor = 5 ]
 then
 clear
 echo " VirusHp.." | lolcat
@@ -77,7 +77,7 @@ cd perusak
 python2 perusak.py
 fi
 
-if [$nomor = 6 ] || [ $nomor = 6 ]
+if [ $nomor = 6 ] || [ $nomor = 6 ]
 then
 clear
 echo " BrutalSms.." | lolcat
@@ -92,7 +92,7 @@ ls
 python2 run.py
 fi
 
-if [$nomor = 7 ] || [$nomor = 7 ]
+if [ $nomor = 7 ] || [ $nomor = 7 ]
 then
 clear
 echo " BuatVirtex.." | lolcat
@@ -106,7 +106,7 @@ chmod +x virtex.sh
 sh virtex.sh
 fi
 
-if [$nomor = 8 ] || [$nomor = 8 ]
+if [ $nomor = 8 ] || [ $nomor = 8 ]
 then
 clear
 echo " Deface.." | lolcat
@@ -117,11 +117,10 @@ ls
 python2 deface.py
 fi
 
-if [$nomor = 9] | [$nomor = 9]
+if [ $nomor = 9] || [ $nomor = 9]
 then
 clear
 echo " HACK IG.." | lolcat
-pkg install openssh -y
 git clone https://github.com/saydog/HEK-IG
 cd HEK-IG
 python2 dog.py

@@ -15,7 +15,7 @@ echo " [5] VirusHp (Bye Justahacker)" | lolcat
 echo " [6] BrutalSms" | lolcat
 echo " [7] BuatVirtex" | lolcat
 echo " [8] Deface" | lolcat
-echo " [9] HACK IG" | lolcat
+echo " [9] HackCCTV" | lolcat
 echo " Nomor  : " | lolcat
 read nomor
 
@@ -117,11 +117,13 @@ ls
 python2 deface.py
 fi
 
-if [ $nomor = 9] || [ $nomor = 9]
+if [ $nomor = 9 ] || [ $nomor = 9 ]
 then
 clear
-echo " HACK IG.." | lolcat
-git clone https://github.com/saydog/HEK-IG
-cd HEK-IG
-python2 dog.py
+echo " HackCCTV.." | lolcat
+pkg update && pkg upgrade
+pkg install python
+git clone https://github.com/storiku/HackCCTV
+cd HackCCTV
+python2 HCCTV.py
 fi
